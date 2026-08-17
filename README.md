@@ -39,12 +39,12 @@
   <img src="docs/assets/how-it-works.gif" alt="Any agent calls Jentic One, which applies default-deny policies, injects credentials at execution time, and logs every call on your own instance, before reaching any public or private API. One call is allowed and returns 201; a second is denied by rule and never leaves the layer." width="100%">
 </p>
 
-Giving an agent API access normally means giving it an API key. Jentic One removes that step.
+Giving an agent API access normally means giving it an API key. Jentic One removes that step and that risk.
 Register the APIs an agent may use, store the credentials once, and the agent makes its calls
 through the Broker. The Broker checks the agent's permissions, attaches the credential at
 execution time, and writes an audit record. Your agent never sees your keys.
 
-Self-hosted and Apache-2.0. The open-source build is the real thing, not a trial.
+Self-hosted and Apache-2.0. 
 
 **Who it's for**
 
