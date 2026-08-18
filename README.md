@@ -44,7 +44,7 @@ Register the APIs an agent may use, store the credentials once, and the agent ma
 through the Broker. The Broker checks the agent's permissions, attaches the credential at
 execution time, and writes an audit record. Your agent never sees your keys.
 
-Self-hosted and Apache-2.0. The open-source build is the real thing, not a trial.
+Self-hosted and Apache-2.0. 
 
 **Who it's for**
 
